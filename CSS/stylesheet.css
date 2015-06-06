@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*Background Image*/
+body
+{
+	background-image:url(../Images/ButterflyBackground.gif);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed
+}
+/*Heading 6*/
+#title
+{
+	font-family: Cursive;
+	font-size:5em;
+	text-align:center;
+}
+
+/*Table styling*/
+table
+{
+	width:65%;
+	position:absolute;
+	bottom:10px;
+	right:10px;	
+}
+td
+{
+	width:20%;
+	position:relative;
+}
+td:after{/*I don't know what this is but it works*/
+    content:'';
+    display:block;
+    margin-top:100%;
+}
+img
+{
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	height:100%;
+	width:100%;
+	border-radius:35%;
+}
+
+
