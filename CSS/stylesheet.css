@@ -5,35 +5,78 @@ body
 	background-image:url(../Images/ButterflyBackground.gif);
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
-	background-attachment: fixed
+	background-attachment: fixed;
 }
 /*Heading 6*/
 #title
 {
-	font-family: Cursive;
+	font-family: Papyrus;
 	font-size:5em;
-	text-align:center;
+	text-align:left;
+	margin:0px;
+}
+/*Social Network Table Styling*/
+.Social_Network_Table_Data
+{
+	width:20%;
+	position:relative;
+}
+.Social_Network_Table_Data:after
+{
+/*I don't know what this is but it works and it's for the picture table*/
+    content:'';
+    display:block;
+    margin-top:100%;
+}
+#Social_Network_Table
+{
+	position:absolute;
+	width:30%;
+	top:5px;
+	right:30px;
+	border-spacing:20px;
+}
+.Social_Network_Picture
+{
+	position:absolute;
+    top:15px;
+    bottom:0;
+    left:0;
+    right:0;
+	height:40%;
+	width:100%;
+	
+}
+/*Heading 3*/
+h3
+{
+	font-family: Harrington;
+	font-size: 1em;
+	text-align:right;
+	margin:0px;
 }
 
-/*Table styling*/
-table
+/*Picture Table styling*/
+#Picture_Table
 {
 	width:65%;
 	position:absolute;
 	bottom:10px;
 	right:10px;	
 }
-td
+.Picture_Table_Data
 {
 	width:20%;
 	position:relative;
 }
-td:after{/*I don't know what this is but it works*/
+.Picture_Table_Data:after
+{
+/*I don't know what this is but it works and it's for the picture table*/
     content:'';
     display:block;
     margin-top:100%;
 }
-img
+.Picture_Table_Image
 {
 	position:absolute;
     top:0;
@@ -44,5 +87,7 @@ img
 	width:100%;
 	border-radius:35%;
 }
+
+
 
 
