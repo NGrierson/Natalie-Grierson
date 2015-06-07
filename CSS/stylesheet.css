@@ -1,9 +1,16 @@
 @charset "UTF-8";
 /*Background Image*/
 /*hi*/
-body
+#Main_Page_Body
 {
 	background-image:url(../Images/ButterflyBackground.gif);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+#Past_Places_Body
+{
+	background-image:url(../Images/PastPlacesPageBackGround.jpg);
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
@@ -55,6 +62,12 @@ h3
 	font-size: 1em;
 	text-align:right;
 	margin:0px;
+}
+/*Past Places Button Styling*/
+#Past_Places_Button
+{
+	font-family:cursive;
+	font-size:25px;
 }
 
 /*Picture Table styling*/
