@@ -8,13 +8,6 @@
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 }
-#Past_Places_Body
-{
-	background-image:url(../Images/PastPlacesPageBackGround.jpg);
-	background-size: 100% 100%;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-}
 /*Heading 6*/
 #title
 {
@@ -101,7 +94,68 @@ h3
 	width:100%;
 	border-radius:35%;
 }
-
-
+/*PAST PLACES STLYING---PAST PLACES STLYING---PAST PLACES STLYING---PAST PLACES STLYING---PAST PLACES STLYING*/
+/*Past Places Table*/
+#Past_Places_Table
+{
+	width:100%;
+	height:300%;
+}
+/*Flagstaff Styling*/
+#Flagstaff
+{
+	height:300px;
+	background-image:url(../Images/FlagstaffBackGroundPicture.jpg);
+	background-size: 100% 100%;
+}
+.Flagstaff
+{
+	position:absolute;
+	font-family:Brush Script MT;
+	font-size:60px;
+	color:#FF0;
+}
+/*Williams Styling*/
+#Williams
+{
+	height:300px;
+	background-image:url(../Images/WilliamsBackGroundPicture.jpg);
+	background-size: 100% 100%;
+}
+.Williams
+{
+	position:absolute;
+	font-family:Brush Script MT;
+	font-size:60px;
+	color:#FF0;
+}
+/*Great_Falls Styling*/
+#Great_Falls
+{
+	height:300px;
+	background-image:url(../Images/GreatFallsBAckGroundPicture.jpg);
+	background-size: 100% 100%;
+}
+.Great_Falls
+{
+	position:absolute;
+	font-family:Brush Script MT;
+	font-size:60px;
+	color:#FF0;
+}
+/*Everett Styling*/
+#Everett
+{
+	height:300px;
+	background-image:url(../Images/EverettBackGroundPicture.jpg);
+	background-size: 100% 100%;
+}
+.Everett
+{
+	position:absolute;
+	font-family:Brush Script MT;
+	font-size:60px;
+	color:#FF0;
+}
 
 
